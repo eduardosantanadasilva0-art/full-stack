@@ -5,7 +5,7 @@
 }
 
 body{
-background: url('../img/img-5.jpg') no-repeat;
+background: url('../img/rashiras.png') no-repeat;
 background-size: cover;
 
 }
@@ -16,7 +16,7 @@ background-size: cover;
  background: rgb(36, 191, 34);
  max-width: 1000px;
  margin: 0 auto;
-
+border-radius: 10px;
 
 }
 
@@ -58,13 +58,11 @@ color:red
 
 .container li {
 color:white
-
 }
 
 .links a:hover {
 text-decoration:underline;
 color:white;
-
 }
 
 
