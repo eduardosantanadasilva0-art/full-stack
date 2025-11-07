@@ -1,2 +1,13 @@
-//alert("Olá Turma!");
-console.log("Olá Eduardo");
+// Função em JavasScript
+function adicionar() {
+    // Variáveis
+    let tarefa = document.getElementById("tarefa");
+    let lista = document.getElementById("lista");
+    
+    let item = document.createElement("li");
+    item.textContent = tarefa.value;
+
+    lista.appendChild(item);
+
+    tarefa.value = "";
+}
