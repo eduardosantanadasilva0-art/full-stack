@@ -1,0 +1,70 @@
+*{ 
+    margin: 0 auto;
+    padding: 0 auto;
+    list-style: none;
+}
+
+body{
+background: url('../img/img-5.jpg') no-repeat;
+background-size: cover;
+
+}
+
+.container {
+
+ font-weight: bold;
+ background: rgb(36, 191, 34);
+ max-width: 1000px;
+ margin: 0 auto;
+
+
+}
+
+.container h1 {
+    padding: 10px;
+    color: red;
+
+}
+
+.links a{
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+.links a:hover {
+text-decoration: underline;
+color: blue;
+
+}
+
+.container p {
+color:white;
+
+
+}
+
+.container h2 {
+color: red
+
+}
+
+.container h3 {
+color:red
+
+}
+
+.container li {
+color:white
+
+}
+
+.links a:hover {
+text-decoration:underline;
+color:white;
+
+}
+
+
