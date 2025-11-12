@@ -5,4 +5,4 @@ function mostraDobro() {
 let numero = Number (prompt("Digite um numero"));
 let dobro = numero * 2
 
-document.write("O dobro do numero é:" + dobro);
+document.write("O dobro do numero é: " + dobro);
