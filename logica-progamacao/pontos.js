@@ -14,9 +14,9 @@ document.write(mensagem + pontos);
 if (pontos > 10){
     mostra("Seu time está indo bem: ");
 }else if (pontos < 5) {
-    mostra ("Seu time precisa melhorar:");
+    mostra ("Seu time precisa melhorar: ");
 }else{
-    mostra("Fora do rebaixamento")
+    mostra(" Fora do rebaixamento")
 }
 //mostra ()
 
