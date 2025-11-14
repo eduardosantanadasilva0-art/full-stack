@@ -18,5 +18,5 @@ if (pontos > 10){
 }else{
     mostra(" Fora do rebaixamento")
 }
-//mostra ()
+
 

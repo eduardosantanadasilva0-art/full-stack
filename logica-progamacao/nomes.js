@@ -1,9 +1,7 @@
-const nmaes = [ "B2" , Victoria", Rodrigo" Dudu"]
-//
+const names = [ "B2","Rodrigo", "Victoria", "Dudu","Alemão", "Carlos"];
+//                0        1        2          3       4         5                
 
-// length 
-
-console.log(names)
-//
-for(let i = 0; i < names.legth; i++)
-        console.log("" + names) [i]
+// length
+for(let i = 0; i < names.legth; i++){
+        console.log("😁😁" + names [i]);
+}
