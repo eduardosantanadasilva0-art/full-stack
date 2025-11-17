@@ -13,6 +13,6 @@ Exemplo:
   10 * 10 = 100
 */
 
-for (let i = 1; i <=10; i++) {
-    console.log('10 * ${i} = ${i * 10}')
+for (let i = 1; i <= 10; i++) {
+    console.log(`10 * ${i} = ${i * 10}`)
 }

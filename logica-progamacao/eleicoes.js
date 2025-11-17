@@ -25,4 +25,3 @@ while(anoInicio <= anoAtual){
 document.write("Ano de eleição: " + anoInicio + "<hr>" + tipoAno + "<br>");
     anoInicio += 2;
 }
-
