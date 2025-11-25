@@ -1,31 +1,36 @@
-const form = document.querySelectorAll("form")
-const inputNome = document.getElementById("nome")
-const inputEmail = document.getElementById("email")
-const inputTelefone = document.getElementById("telefone")
+const form = document.querySelector("form");
+const lista = document.querySelector(".lista");
+const inputNome = document.getElementById("nome");
+const inputEmail = document.getElementById("email");
+const inputTel = document.getElementById("telefone");
 
-form.addEventLister("submit", function(event) 
-    event.preventDefault()
-   
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
     // Validação do formulário
-    /*
-*/
+    if (inputNome.value == "" || inputEmail.value == "" || inputTel.value == "") {
+        alert("Digite seus dados");
+        return false;
+    }
 
-if (inputNome.value == "") {
-alert("Digite o nome")
-return false
+    // Criar LI
+    const li = document.createElement("li");
+
+    li.innerHTML = `
+        <span class="contato-nome">${inputNome.value}</span>
+        <span class="contato-email">${inputEmail.value}</span>
+        <span class="contato-telefone">${inputTel.value}</span>
+    `;
+
+    console.log(li)
+
+
+    // appendChild()
+    lista.appendChild(li)
+
+    // Limpar inputs
+    form.reset();
+
 })
-
-
-
-
-
-
-    console.log("Nome", inputNome.value)
-    console.log("Email", inputEmail.value)
-    console.log("Telefone", inputTelefone.value)
-
-   
-
-    
         
     
